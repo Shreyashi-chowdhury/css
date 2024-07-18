@@ -1,0 +1,39 @@
+#outer{
+    
+
+    width:200px;
+    display: inline-flex;
+    gap:5px;
+    padding:5px;
+    flex-direction: column;
+    position:relative;
+    right: 255px;
+    top:70px;
+    transition: all 1s;
+    backdrop-filter:brightness(50%) blur(10px);
+    /* visibility: hidden; */
+    /* opacity: 0; */
+
+}
+.inner{
+    height: 50px;
+    width:100%;
+    font-size: large;
+    transition: all 1s;
+    margin-bottom:20px;
+}
+#btn{
+
+
+display: inline-flex;
+
+}
+
+#btn:hover #outer{
+    right:10px;
+}
+body{
+    background-image: url('img.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
