@@ -1,0 +1,61 @@
+
+#outer{
+    border:5px;
+    height:300px;
+    width: 300px;
+    padding: 10px;
+    position: relative;
+    top:100px;
+    left:400px;
+    border-radius: 10%;
+}
+.inner{
+    height:300px;
+    width: 300px;
+    border:2px dotted;
+    position: absolute;
+    transition: all 1s;
+    border-radius: 10%;
+}
+
+
+#outer:hover #fir{
+    transform: rotate(9deg);
+    background-color:  #211951;
+}
+#outer:hover #sec{
+    transform: rotate(18deg);
+    background-color:  #836FFF;
+}
+#outer:hover #thr{
+    transform: rotate(27deg);
+    background-color: #D67BFF;
+}
+#outer:hover #for{
+    transform: rotate(36deg);
+    background-color:#A084E8 ;
+}
+#outer:hover #fiv{
+    transform: rotate(45deg);
+    background-color: #8BE8E5;
+}
+#outer:hover #six{
+    transform: rotate(54deg);
+    background-color: #9EDDFF;
+}
+#outer:hover #sev{
+    transform: rotate(63deg);
+    background-color: #77E4C8;
+}
+#outer:hover #eig{
+    transform: rotate(72deg);
+    background-color:#36C2CE;
+}
+#outer:hover #nin{
+    transform: rotate(81deg);
+    background-color: #478CCF;
+}
+#outer:hover #ten{
+    transform: rotate(90deg);
+    background-color: #4535C1;
+}
